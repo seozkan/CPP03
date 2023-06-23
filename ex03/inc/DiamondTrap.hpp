@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/14 12:11:53 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/15 20:54:02 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 14:09:34 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ private:
     unsigned int _attackDamage;
 
 public:
-	DiamondTrap(void);
+	DiamondTrap();
 	DiamondTrap(const DiamondTrap &diamondTrap);
 	DiamondTrap(std::string name);
 	~DiamondTrap();
