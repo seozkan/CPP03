@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/12 19:57:56 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/12 19:57:58 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 13:59:33 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ private:
     unsigned int _attackDamage;
 
 public:
-    ClapTrap(void);
+    ClapTrap();
     ClapTrap(std::string name);
     ClapTrap(const ClapTrap &claptrap);
     ClapTrap &operator=(const ClapTrap &claptrap);
